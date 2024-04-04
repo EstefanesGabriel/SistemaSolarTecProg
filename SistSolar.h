@@ -14,6 +14,7 @@ class SistemaSolar
 private:
     Planeta Terra;
     Planeta Marte;
+    Planeta Jupiter;
     Estrela sol;
     ListaPlanetas lPlanetas;
 public:
