@@ -43,3 +43,47 @@
 1712187337 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\listaplanetas.cpp
 	"SistSolar.h"
 
+1712189216 source:c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\elementoplaneta.cpp
+	"ElementoPlaneta.h"
+
+1712189216 c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\elementoplaneta.h
+	"Planeta.h"
+
+1712189216 c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\planeta.h
+	<string>
+
+1712189216 source:c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\estrela.cpp
+	"Estrela.h"
+	"SistSolar.h"
+
+1712189216 c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\estrela.h
+	"Planeta.h"
+	"ListaPlanetas.h"
+
+1712189216 c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\listaplanetas.h
+	"Planeta.h"
+	"ElementoPlaneta.h"
+
+1712189216 c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\sistsolar.h
+	"string.h"
+	"ListaPlanetas.h"
+	"Estrela.h"
+	"Planeta.h"
+	"ElementoPlaneta.h"
+	<iostream>
+
+1712189216 source:c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\listaplanetas.cpp
+	"SistSolar.h"
+
+1712189216 source:c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\main.cpp
+	"SistSolar.h"
+
+1712189216 source:c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\planeta.cpp
+	"Planeta.h"
+	"SistSolar.h"
+	"Estrela.h"
+	<string>
+
+1712189216 source:c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\sistsolar.cpp
+	"SistSolar.h"
+
