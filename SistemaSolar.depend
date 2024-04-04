@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1712187683 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\estrela.cpp
+	"Estrela.h"
+	"SistSolar.h"
+
+1712187647 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\estrela.h
+	"Planeta.h"
+	"ListaPlanetas.h"
+
+1712188409 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\planeta.h
+	<string>
+
+1712188358 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistsolar.h
+	"string.h"
+	"ListaPlanetas.h"
+	"Estrela.h"
+	"Planeta.h"
+	"ElementoPlaneta.h"
+	<iostream>
+
+1712188387 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\planeta.cpp
+	"Planeta.h"
+	"SistSolar.h"
+	"Estrela.h"
+	<string>
+
+1712187946 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistsolar.cpp
+	"SistSolar.h"
+
+1712017992 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\main.cpp
+	"SistSolar.h"
+
+1712187337 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\listaplanetas.h
+	"Planeta.h"
+	"ElementoPlaneta.h"
+
+1712188189 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\elementoplaneta.h
+	"Planeta.h"
+
+1712188189 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\elementoplaneta.cpp
+	"ElementoPlaneta.h"
+
+1712187337 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\listaplanetas.cpp
+	"SistSolar.h"
+
