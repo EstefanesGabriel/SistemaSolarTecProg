@@ -16,6 +16,7 @@ private:
     Planeta Marte;
     Planeta Jupiter;
     Planeta Saturno;
+    Planeta Netuno;
     Estrela sol;
     ListaPlanetas lPlanetas;
 public:
