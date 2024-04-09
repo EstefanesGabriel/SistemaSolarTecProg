@@ -1,6 +1,5 @@
 #pragma once
 
-#include"Lista.h"
 
 template <class TIPO>
 

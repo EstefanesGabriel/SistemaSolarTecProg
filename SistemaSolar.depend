@@ -87,11 +87,12 @@
 1712189216 source:c:\users\giova\onedrive\documentos\progutfpr\tecprog-estudos\sistemasolartecprog\sistsolar.cpp
 	"SistSolar.h"
 
-<<<<<<< Updated upstream
-1712617595 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\elementoplaneta.cpp
+1712190786 ated upstream
 
-=======
->>>>>>> Stashed changes
+1712625884 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\elementoplaneta.cpp
+
+1712621762 shed changes
+
 1712190786 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\estrela.cpp
 	"Estrela.h"
 	"SistSolar.h"
@@ -103,26 +104,17 @@
 1712190786 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\planeta.h
 	<string>
 
-<<<<<<< Updated upstream
-1712619538 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\listaplanetas.h
+1712627008 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\listaplanetas.h
 	"Planeta.h"
 	"Lista.h"
 
-1712617595 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\elementoplaneta.h
+1712625884 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\elementoplaneta.h
 	"Planeta.h"
 
-1712619800 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\elemento.h
-	"Lista.h"
+1712626215 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\elemento.h
 
-=======
-1712621762 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\listaplanetas.h
-	"Planeta.h"
-	"ElementoPlaneta.h"
+1712619800 
 
-1712621762 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\elementoplaneta.h
-	"Planeta.h"
-
->>>>>>> Stashed changes
 1712616234 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\sistsolar.h
 	"string.h"
 	"ListaPlanetas.h"
@@ -143,15 +135,15 @@
 1712190786 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\sistsolar.cpp
 	"SistSolar.h"
 
-<<<<<<< Updated upstream
-1712621596 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\lista.h
+1712627044 c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\lista.h
 	<iostream>
 	"Elemento.h"
-=======
-1712621762 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\elementoplaneta.cpp
-	"ElementoPlaneta.h"
 
-1712621762 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\listaplanetas.cpp
+1712621596 h"
+
+1712627008 source:c:\users\estef\onedrive\Área de trabalho\gabriel\utfpr\técnicas de programação c++\sistemasolar\sistemasolartecprog\listaplanetas.cpp
 	"SistSolar.h"
->>>>>>> Stashed changes
+	"ListaPlanetas.h"
+	"Lista.h"
+	"Elemento.h"
 

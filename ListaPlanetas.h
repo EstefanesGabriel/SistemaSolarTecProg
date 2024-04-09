@@ -1,7 +1,6 @@
 #pragma once
 
 #include"Planeta.h"
-
 #include"Lista.h"
 
 class SistemaSolar;
@@ -17,6 +16,7 @@ public:
 
     void incluirPlaneta(Planeta* pPlaneta);
     void listPlanetas();
+
 
 
 };

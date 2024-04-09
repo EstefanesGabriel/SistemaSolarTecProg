@@ -1,6 +1,7 @@
 #include"SistSolar.h"
 #include "ListaPlanetas.h"
 #include "Lista.h"
+#include "Elemento.h"
 
 
 ListaPlanetas::ListaPlanetas()
@@ -16,7 +17,7 @@ ListaPlanetas::~ListaPlanetas()
 void ListaPlanetas::incluirPlaneta(Planeta* pPlaneta)
 {
 
-    if(pPlaneta == nullptr)
+    if(pPlaneta != NULL)
     {
         lPlanetas.incluaInfo(pPlaneta);
     }
@@ -30,18 +31,9 @@ void ListaPlanetas::incluirPlaneta(Planeta* pPlaneta)
 
 void ListaPlanetas::listPlanetas()
 {
-    Elemento<Planeta>* pElemento = lPlanetas;
+    Elemento<Planeta>* pElemento = NULL;
     Planeta* pAux = nullptr;
-
-    if(pElemento == nullptr)
-    {
-        cout << "Nenhum planeta existente" << endl;
-        exit(1);
-    }
-
-    else
-    {
-
+    pElemento = lPlanetas.getpPrim();
 
         while(pElemento != nullptr)
         {
@@ -52,16 +44,5 @@ void ListaPlanetas::listPlanetas()
 
             pElemento = pElemento->pProx;
         }
-    }
 }
 
-
-Elemento<Planeta>* ListaPlanetas::getPlanetaPrim()
-{
-    return pPrim;
-}
-
-Elemento<Planeta>* ListaPlanetas::getPlanetaAtual()
-{
-    return pAtual;
-}
