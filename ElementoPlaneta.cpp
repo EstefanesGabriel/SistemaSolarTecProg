@@ -1,4 +1,4 @@
-#include"ElementoPlaneta.h"
+/*#include"ElementoPlaneta.h"
 class Planeta;
 
 ElementoPlaneta::ElementoPlaneta()
@@ -33,3 +33,4 @@ Estrela* ElementoPlaneta::getEstrela()
 {
     return pPlaneta->getEstrela();
 }
+*/

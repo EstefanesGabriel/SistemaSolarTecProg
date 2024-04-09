@@ -1,50 +1,39 @@
 #include"SistSolar.h"
+#include "ListaPlanetas.h"
+#include "Lista.h"
 
 
 ListaPlanetas::ListaPlanetas()
 {
-    pElPlanetaPrim = nullptr;
 
-    pElPlanetaAtual = nullptr;
 }
 
 ListaPlanetas::~ListaPlanetas()
 {
-    pElPlanetaPrim = nullptr;
-
-    pElPlanetaAtual = nullptr;
+    lPlanetas.~Lista();
 }
 
 void ListaPlanetas::incluirPlaneta(Planeta* pPlaneta)
 {
-    ElementoPlaneta* elementoAux;
 
-    elementoAux = new ElementoPlaneta();
-
-    elementoAux->setPlaneta(pPlaneta);
-
-    if(pElPlanetaPrim == nullptr)
+    if(pPlaneta == nullptr)
     {
-        pElPlanetaPrim = elementoAux;
-        pElPlanetaAtual = elementoAux;
+        lPlanetas.incluaInfo(pPlaneta);
     }
 
     else
     {
-        pElPlanetaAtual->pProx = elementoAux;
-        elementoAux->pAnt = pElPlanetaAtual;
-        pElPlanetaAtual = elementoAux;
+        cout << "ponteiro nulo" << endl;
     }
 
 }
 
 void ListaPlanetas::listPlanetas()
 {
-    ElementoPlaneta* elementoAux;
+    Elemento<Planeta>* pElemento = lPlanetas;
+    Planeta* pAux = nullptr;
 
-    elementoAux = pElPlanetaPrim;
-
-    if(elementoAux == nullptr)
+    if(pElemento == nullptr)
     {
         cout << "Nenhum planeta existente" << endl;
         exit(1);
@@ -52,26 +41,27 @@ void ListaPlanetas::listPlanetas()
 
     else
     {
-        while(elementoAux != nullptr)
-        {
-            cout << "Planeta: " << elementoAux->getNome() << endl;
 
-            elementoAux = elementoAux->pProx;
+
+        while(pElemento != nullptr)
+        {
+
+            pAux = pElemento->getInfo();
+
+            cout << "Planeta: " << pAux->getNome() << endl;
+
+            pElemento = pElemento->pProx;
         }
     }
 }
 
-/*Planeta* ListaPlanetas::localizar(char* n)
-{
 
-}*/
-
-ElementoPlaneta* ListaPlanetas::getPlanetaPrim()
+Elemento<Planeta>* ListaPlanetas::getPlanetaPrim()
 {
-    return pElPlanetaPrim;
+    return pPrim;
 }
 
-ElementoPlaneta* ListaPlanetas::getPlanetaAtual()
+Elemento<Planeta>* ListaPlanetas::getPlanetaAtual()
 {
-    return pElPlanetaAtual;
+    return pAtual;
 }

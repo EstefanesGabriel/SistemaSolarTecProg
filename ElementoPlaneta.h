@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 
 #include"Planeta.h"
 
@@ -10,9 +10,6 @@ private:
 
 
 public:
-
-    ElementoPlaneta* pProx;
-    ElementoPlaneta* pAnt;
 
     ElementoPlaneta();
     ~ElementoPlaneta();
@@ -26,3 +23,4 @@ public:
     Estrela* getEstrela();
 
 };
+*/
