@@ -1,5 +1,5 @@
 #pragma once
-
+#include "Astros.h"
 #include"Lista.h"
 
 class SistemaSolar;

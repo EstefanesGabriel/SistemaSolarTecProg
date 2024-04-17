@@ -1,28 +1,27 @@
 #pragma once
-#include"Astros.h"
+#include "Astros.h"
 #include <string>
 using namespace std;
 
 class SistemaSolar;
 class Estrela;
 
-class Planeta: public Astros
+class Planeta : public Astros
 {
 private:
-    int tempo_orbita;
+    int tempo_orbita = NULL;
     Estrela* pEstrela;
 
     int id;
-    string nome;
 
 
 
 public:
     Planeta();
     ~Planeta();
-    float calc_quantOrbitas();
+    //float calc_quantOrbitas();
     void setTempoOrbita(int tempo_orbita);
-    int getTempoOrbita();
+    void getInfo(); //int getTempoOrbita();
 
     void setId(int id);
 

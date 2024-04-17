@@ -3,20 +3,21 @@
 #include"Estrela.h"
 #include<string>
 using std::string;
+#include <iostream>
+using namespace std;
 
 Planeta::Planeta():
-    Astro()
+    Astros()
 {
     pEstrela = nullptr;
 }
 
-Planeta::~Planeta():
-    ~Astro()
+Planeta::~Planeta()
 {
     pEstrela = nullptr;
 }
 
-float Planeta::calc_quantOrbitas()
+/*float Planeta::calc_quantOrbitas()
 {
     float resultado = 0.0;
 
@@ -35,11 +36,11 @@ float Planeta::calc_quantOrbitas()
     }
 
     return resultado;
-}
+}*/
 
-int Planeta::getTempoOrbita()
+void Planeta::getInfo()
 {
-    return tempo_orbita;
+    cout << "Tempo de orbita:" << tempo_orbita << endl;
 }
 
 void Planeta::setTempoOrbita(int tempo_orbita)

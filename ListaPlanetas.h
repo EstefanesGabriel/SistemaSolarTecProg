@@ -1,5 +1,4 @@
 #pragma once
-
 #include"Planeta.h"
 #include"Lista.h"
 

@@ -1,6 +1,10 @@
 #pragma once
 #include <iostream>
+using namespace std;
 #include "Elemento.h"
+#include <string>
+using std::string;
+
 
 template <class TIPO>
 class Lista {

@@ -1,18 +1,21 @@
 #pragma once
-#include"Astros.h"
 #include"Planeta.h"
 #include"ListaPlanetas.h"
+#include"Astros.h"
 class SistemaSolar;
 
 class Estrela : public Astros
 {
 private:
-    int tempo_existencia;
-    ListaPlanetas lPlanetas;
+    int tempo_existencia = NULL;
 
 public:
     Estrela();
     ~Estrela();
-    int getTempoExistencia();
+
+    string getNome();
+    void setNome(string nome);
+
+    void getInfo(); //int getTempoExistencia();
     void setTempoExistencia(int tempo);
 };

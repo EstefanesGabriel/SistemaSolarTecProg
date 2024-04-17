@@ -1,4 +1,4 @@
-#include "ListaPlanetas.h"
+#include "ListaAstros.h"
 #include"SistSolar.h"
 #include "Lista.h"
 #include "Elemento.h"
@@ -10,7 +10,7 @@ ListaAstros::ListaAstros()
 
 ListaAstros::~ListaAstros()
 {
-    lPlanetas.~Lista();
+    lAstros.~Lista();
 }
 
 void ListaAstros::incluirAstros(Astros* pAstro)
@@ -30,7 +30,7 @@ void ListaAstros::incluirAstros(Astros* pAstro)
 
 void ListaAstros::listAstros()
 {
-    Elemento<Astro>* pElemento = NULL;
+    Elemento<Astros>* pElemento = NULL;
     Astros* pAux = nullptr;
     pElemento = lAstros.getpPrim();
 
@@ -39,7 +39,8 @@ void ListaAstros::listAstros()
 
             pAux = pElemento->getInfo();
 
-            cout << "Planeta: " << pAux->getNome() << endl;
+            cout << "Astro: " << pAux->getNome() << endl;
+            pAux->getInfo();
 
             pElemento = pElemento->pProx;
         }

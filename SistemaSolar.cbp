@@ -31,10 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="ElementoPlaneta.cpp" />
-		<Unit filename="ElementoPlaneta.h" />
+		<Unit filename="Astros.cpp" />
+		<Unit filename="Astros.h" />
+		<Unit filename="Elemento.h" />
 		<Unit filename="Estrela.cpp" />
 		<Unit filename="Estrela.h" />
+		<Unit filename="Lista.h" />
+		<Unit filename="ListaAstros.cpp" />
+		<Unit filename="ListaAstros.h" />
 		<Unit filename="ListaPlanetas.cpp" />
 		<Unit filename="ListaPlanetas.h" />
 		<Unit filename="Planeta.cpp" />
