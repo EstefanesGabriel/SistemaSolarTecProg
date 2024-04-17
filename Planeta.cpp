@@ -4,12 +4,14 @@
 #include<string>
 using std::string;
 
-Planeta::Planeta()
+Planeta::Planeta():
+    Astro()
 {
     pEstrela = nullptr;
 }
 
-Planeta::~Planeta()
+Planeta::~Planeta():
+    ~Astro()
 {
     pEstrela = nullptr;
 }

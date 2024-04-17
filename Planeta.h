@@ -1,12 +1,12 @@
 #pragma once
-
+#include"Astros.h"
 #include <string>
 using namespace std;
 
 class SistemaSolar;
 class Estrela;
 
-class Planeta
+class Planeta: public Astros
 {
 private:
     int tempo_orbita;

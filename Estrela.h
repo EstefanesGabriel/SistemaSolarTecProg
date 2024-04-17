@@ -1,10 +1,10 @@
 #pragma once
-
+#include"Astros.h"
 #include"Planeta.h"
 #include"ListaPlanetas.h"
 class SistemaSolar;
 
-class Estrela
+class Estrela : public Astros
 {
 private:
     int tempo_existencia;

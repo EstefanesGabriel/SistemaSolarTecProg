@@ -12,13 +12,7 @@ using std::endl;
 class SistemaSolar
 {
 private:
-    Planeta Terra;
-    Planeta Marte;
-    Planeta Jupiter;
-    Planeta Saturno;
-    Planeta Netuno;
-    Estrela sol;
-    ListaPlanetas lPlanetas;
+
 public:
     SistemaSolar();
     ~SistemaSolar();

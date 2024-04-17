@@ -1,11 +1,13 @@
 #include"Estrela.h"
 #include"SistSolar.h"
 
-Estrela::Estrela()
+Estrela::Estrela():
+    Astro()
 {
 
 }
-Estrela::~Estrela()
+Estrela::~Estrela():
+    ~Astro()
 {
 
 }
